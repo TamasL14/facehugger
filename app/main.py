@@ -6,7 +6,7 @@ from flask_restful import Api, Resource
 
 CFG_PORT = 5000
 app = Flask(__name__)
-api = Api(app)
+app = Api(app)
 
 class HelloWorld(Resource):
     """
